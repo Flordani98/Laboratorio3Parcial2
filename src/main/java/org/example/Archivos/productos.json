@@ -1,0 +1,31 @@
+[ {
+  "id" : "1",
+  "stock" : 10,
+  "precio" : 399.0,
+  "descripcion" : "Manzanas",
+  "categoria" : "FRUTAS"
+}, {
+  "id" : "2",
+  "stock" : 15,
+  "precio" : 229.0,
+  "descripcion" : "Lechuga romana",
+  "categoria" : "VERDURAS"
+}, {
+  "id" : "3",
+  "stock" : 20,
+  "precio" : 199.0,
+  "descripcion" : "Pan blanco recién horneado",
+  "categoria" : "PANADERIA"
+}, {
+  "id" : "4",
+  "stock" : 5,
+  "precio" : 379.0,
+  "descripcion" : "Pescado congelado",
+  "categoria" : "CONGELADOS"
+}, {
+  "id" : "5",
+  "stock" : 8,
+  "precio" : 499.0,
+  "descripcion" : "Banana madura",
+  "categoria" : "FRUTAS"
+} ]
