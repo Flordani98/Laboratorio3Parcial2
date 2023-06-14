@@ -51,6 +51,7 @@ public class ClienteRepo implements IRepository<Cliente>{
     public void agregar(Cliente... objeto) { //spread, para pasar 1 o mas objetos por parametro
         cargar();
         this.listaClientes.addAll(List.of(objeto));
+        guardar();
 
     }
 

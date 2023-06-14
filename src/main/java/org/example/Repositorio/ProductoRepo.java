@@ -52,6 +52,8 @@ public class ProductoRepo implements IRepository<Producto>{
     public void agregar(Producto... objeto) { //spread, para pasar 1 o mas objetos por parametro
         cargar();
         this.listaProductos.addAll(List.of(objeto));
+        guardar();
+
 
     }
 
